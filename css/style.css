@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Campton;
+  src: url(../assets/Campton-Light.ttf);
+}
+
+* {
+  font-family: Campton;
+}
+
+body {
+  background-image: url("../img/ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: 120%;
+}
+
+header {
+  text-align: center;
+}
+
+.tarjeta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid #f7be00;
+  border-radius: 1rem;
+  padding: 1em;
+  width: 16em;
+  margin: 1em;
+}
+
+.tarjeta .titulo {
+  font-weight: bold;
+}
+
+.tarjeta .link {
+  text-align: right;
+}
+
+.boton {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 1em;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.boton:hover {
+  color: #212529;
+}
+
+.boton-primary {
+  color: #000;
+  background-color: #fafafa;
+  border: 2px solid #fde021;
+}
+.boton-primary:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 2px solid #f7be00;
+}
+
+#mynav a.navbar-brand,
+#mynav a.nav-link,
+#mynav a.dropdown-item {
+  color: #d41367;
+  font-weight: bold;
+  min-width: 8em;
+}
+
+#mynav a.navbar-brand:hover,
+#mynav a.nav-link:hover,
+#mynav a.dropdown-item:hover {
+  color: #9d1d96;
+  font-weight: bold;
+}
+
+#mynav {
+  border-bottom: 2px solid #d41367;
+}
+
+#mynav .container-fluid {
+  margin-left: 5em;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: smaller;
+}
