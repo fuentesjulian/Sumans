@@ -16,6 +16,7 @@ body {
 
 header {
   text-align: center;
+  margin-top: 1em;
 }
 
 header img{
@@ -138,6 +139,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   font-size: smaller;
+  margin-bottom: 1em;
 }
 .cursos-detalle{
   display: flex;
@@ -180,7 +182,6 @@ footer {
 .cursos-detalle .tarjeta .curso-titulo{
   font-weight: bold;
 }
-.cursos-detalle .tarjeta .curso-texto {}
 
 #formulario textarea{
   height: 5em;
